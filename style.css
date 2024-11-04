@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0;
   user-select: none;
 }
 
@@ -9,11 +8,9 @@ body {
   font-family: "Helvetica Neue", sans-serif;
   background: white;
   height: 100vh;
-  overflow-y: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 200px;
+  overflow-y: auto;
+  margin: 50px;
+
 }
 
 .calculator {
@@ -24,9 +21,13 @@ body {
   padding: 20px;
   position: relative;
   width: 563px;
+  margin-top: 50px;
+  margin-left: 50px;
   transform: scale(0.7);
   transform-origin: top center;
+  margin: 0 auto;
 }
+
 
 .top-container {
   display: flex;
@@ -100,6 +101,7 @@ body {
     font-size: 20PX;
     font-weight: bold;
 }
+
 
 .icon {
   font-size: 20px;
